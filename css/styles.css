@@ -25,6 +25,34 @@ main .swiper {
   width: 80%;
   height: 80%; }
 
+footer {
+  height: 150px;
+  width: 100%;
+  margin-top: auto;
+  padding: 40px 0; }
+  footer .social a:hover {
+    opacity: 0.9; }
+  footer .copyright {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    opacity: 0.1; }
+  footer .social {
+    text-align: center;
+    padding-bottom: 25px; }
+    footer .social a {
+      font-size: 24px;
+      color: white;
+      border: 1px solid #ccc;
+      width: 40px;
+      height: 40px;
+      line-height: 38px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      margin: 0 8px;
+      opacity: 0.75; }
+
 main .swiper .swiper-slide img {
   width: 100%; }
 
@@ -39,3 +67,6 @@ nav {
       nav ul li a {
         text-decoration: none;
         color: white; }
+
+footer {
+  background-color: black; }
