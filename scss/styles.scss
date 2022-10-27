@@ -7,7 +7,17 @@
 }
 @import "_variables";
 @import "_estructura";
+main {
+    .swiper {
 
+        .swiper-slide{
+            img {
+                width: 100%;
+            }
+        }
+        
+      }
+}
 nav {
     background-color: $colot_fondo;
     text-transform: uppercase;
