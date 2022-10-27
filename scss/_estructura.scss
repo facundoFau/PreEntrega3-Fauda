@@ -2,6 +2,15 @@ header {
     
 }
 
+nav {
+    align-items: center;
+    display: flex;
+    .logo {
+        height: 72px;
+        width: 70px;
+        padding: 20px;
+    }
+}
 main{
 
 }
